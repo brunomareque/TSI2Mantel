@@ -1,0 +1,55 @@
+package com.Mantel.mantelArch.rest;
+
+import java.util.Collection;
+
+import javax.enterprise.inject.Produces;
+import javax.ws.rs.Consumes;
+import javax.ws.rs.DELETE;
+import javax.ws.rs.GET;
+import javax.ws.rs.POST;
+import javax.ws.rs.PUT;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.QueryParam;
+
+@Path("/usuarios")
+@Consumes({ "application/json" })
+@Produces({ "application/json" })
+public class Rest {
+
+	@GET
+	@Path("/hello")
+	public String getHello(){
+		return "<h1>Hello World</h1>";
+	}
+	
+	@GET
+	@Path("/usuarios")
+	public Collection<Usuario> getUsuarios() {
+		return null;
+	}
+
+	@GET
+	@Path("/Usuario/{isbn}")
+	public Usuario getUsuario(@PathParam("isbn") String id) {
+		return null;
+	}
+
+	@PUT
+	@Path("/Usuario/{isbn}")
+	public Usuario addUsuario(@PathParam("isbn") String id, @QueryParam("title") String title) {
+		return null;
+	}
+
+	@POST
+	@Path("/Usuario/{isbn}")
+	public Usuario updateUsuario(@PathParam("isbn") String id, String title) {
+		return null;
+	}
+
+	@DELETE
+	@Path("/Usuario/{isbn}")
+	public Usuario removeUsuario(@PathParam("isbn") String id) {
+		return null;
+	}
+}
