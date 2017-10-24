@@ -4,7 +4,27 @@
   <project name="mantelArch-ejb"/>
  </depends-on-projects>
  <used-by-projects/>
- <paths/>
+ <paths>
+  <path value="C:/Users/amancebo/.m2/repository/org/hibernate/hibernate-validator/5.1.3.Final/hibernate-validator-5.1.3.Final.jar"/>
+  <path value="C:/Users/amancebo/.m2/repository/org/jboss/resteasy/jaxrs-api/3.0.10.Final/jaxrs-api-3.0.10.Final.jar"/>
+  <path value="C:/Users/amancebo/.m2/repository/javax/enterprise/cdi-api/1.2/cdi-api-1.2.jar"/>
+  <path value="C:/Users/amancebo/.m2/repository/org/jboss/logging/jboss-logging/3.1.3.GA/jboss-logging-3.1.3.GA.jar"/>
+  <path value="C:/Users/amancebo/.m2/repository/javax/el/javax.el-api/3.0.0/javax.el-api-3.0.0.jar"/>
+  <path value="C:/Users/amancebo/.m2/repository/org/jboss/spec/javax/faces/jboss-jsf-api_2.2_spec/2.2.8/jboss-jsf-api_2.2_spec-2.2.8.jar"/>
+  <path value="C:/Users/amancebo/.m2/repository/com/fasterxml/classmate/1.0.0/classmate-1.0.0.jar"/>
+  <path value="C:/Users/amancebo/.m2/repository/javax/interceptor/javax.interceptor-api/1.2/javax.interceptor-api-1.2.jar"/>
+  <path value="C:/Users/amancebo/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
+  <path value="C:/Users/amancebo/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar"/>
+  <path value="/mantelArch-web/src/main/webapp/WEB-INF/faces-config.xml">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/WEB-INF/faces-config.xml" project="mantelArch-web"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Users/amancebo/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar"/>
+ </paths>
  <validation>
   <core validator-id="jsf-verification"/>
   <core validator-id="jboss.cdi.core">
@@ -19,32 +39,26 @@
   <el>
    <linked-el length="51" name="%11" offset="3395" path="%12"/>
    <linked-el length="37" name="%11" offset="3579" path="%12"/>
-   <linked-el length="21" name="%13" offset="4144" path="%14"/>
-   <linked-el length="21" name="%15" offset="3702" path="%16"/>
-   <linked-el length="21" name="%15" offset="3984" path="%14"/>
-   <linked-el length="21" name="%17" offset="3702" path="%16"/>
-   <linked-el length="21" name="%17" offset="3984" path="%14"/>
-   <linked-el length="26" name="%18" offset="5083" path="%14"/>
-   <linked-el length="21" name="%18" offset="3849" path="%16"/>
-   <linked-el length="21" name="%18" offset="4144" path="%14"/>
+   <linked-el length="21" name="%13" offset="3702" path="%14"/>
+   <linked-el length="21" name="%15" offset="3702" path="%14"/>
+   <linked-el length="21" name="%16" offset="3849" path="%14"/>
    <linked-el length="26" name="%4" offset="2033" path="%12"/>
    <linked-el length="20" name="%4" offset="1839" path="%12"/>
    <linked-el length="20" name="%4" offset="1660" path="%12"/>
-   <linked-el length="21" name="%19" offset="3849" path="%16"/>
+   <linked-el length="21" name="%17" offset="3849" path="%14"/>
    <linked-el length="18" name="%0" offset="2591" path="%12"/>
    <linked-el length="23" name="%0" offset="2735" path="%12"/>
    <linked-el length="13" name="%0" offset="2713" path="%12"/>
-   <linked-el length="26" name="%20" offset="5083" path="%14"/>
-   <linked-el length="21" name="%21" offset="3849" path="%16"/>
-   <linked-el length="52" name="%22" offset="3237" path="%12"/>
-   <linked-el length="46" name="%22" offset="3107" path="%12"/>
-   <linked-el length="51" name="%22" offset="3395" path="%12"/>
-   <linked-el length="45" name="%22" offset="2980" path="%12"/>
-   <linked-el length="26" name="%22" offset="2033" path="%12"/>
-   <linked-el length="20" name="%22" offset="1839" path="%12"/>
-   <linked-el length="20" name="%22" offset="1660" path="%12"/>
-   <linked-el length="27" name="%22" offset="3447" path="%12"/>
-   <linked-el length="43" name="%22" offset="2856" path="%12"/>
+   <linked-el length="21" name="%18" offset="3849" path="%14"/>
+   <linked-el length="52" name="%19" offset="3237" path="%12"/>
+   <linked-el length="46" name="%19" offset="3107" path="%12"/>
+   <linked-el length="51" name="%19" offset="3395" path="%12"/>
+   <linked-el length="45" name="%19" offset="2980" path="%12"/>
+   <linked-el length="26" name="%19" offset="2033" path="%12"/>
+   <linked-el length="20" name="%19" offset="1839" path="%12"/>
+   <linked-el length="20" name="%19" offset="1660" path="%12"/>
+   <linked-el length="27" name="%19" offset="3447" path="%12"/>
+   <linked-el length="43" name="%19" offset="2856" path="%12"/>
    <linked-el length="31" name="%5" offset="2255" path="%12"/>
    <linked-el length="52" name="%1" offset="3237" path="%12"/>
    <linked-el length="46" name="%1" offset="3107" path="%12"/>
@@ -55,53 +69,53 @@
    <linked-el length="13" name="%1" offset="2713" path="%12"/>
    <linked-el length="27" name="%1" offset="3447" path="%12"/>
    <linked-el length="43" name="%1" offset="2856" path="%12"/>
-   <linked-el length="26" name="%23" offset="5083" path="%14"/>
-   <linked-el length="51" name="%24" offset="3395" path="%12"/>
-   <linked-el length="37" name="%24" offset="3579" path="%12"/>
+   <linked-el length="51" name="%20" offset="3395" path="%12"/>
+   <linked-el length="37" name="%20" offset="3579" path="%12"/>
    <linked-el length="26" name="%3" offset="2033" path="%12"/>
    <linked-el length="20" name="%3" offset="1839" path="%12"/>
    <linked-el length="31" name="%3" offset="2255" path="%12"/>
    <linked-el length="20" name="%3" offset="1660" path="%12"/>
-   <linked-el length="21" name="%25" offset="4144" path="%14"/>
   </el>
  </validation>
  <aliases>
   <alias path="request" value="%11"/>
-  <alias path="version.ejb" value="%13"/>
-  <alias path="/mantelArch-ejb/pom.xml" value="%14"/>
-  <alias path="project" value="%17"/>
-  <alias
-   path="/mantelArch-ejb/src/main/java/com/Mantel/mantelArch/data/MemberListProducer.java" value="%0"/>
-  <alias path="version.war" value="%19"/>
-  <alias path="version.surefire" value="%20"/>
-  <alias path="members" value="%1"/>
-  <alias path="memberController" value="%5"/>
-  <alias
-   path="/mantelArch-ejb/src/main/java/com/Mantel/mantelArch/data/MemberRepository.java" value="%9"/>
-  <alias path="version.ejb.plugin" value="%25"/>
   <alias
    path="/mantelArch-web/src/main/java/com/Mantel/mantelArch/util/WebResources.java" value="%2"/>
   <alias
    path="/mantelArch-ejb/src/test/java/com/Mantel/mantelArch/test/MemberRegistrationTest.java" value="%7"/>
-  <alias path="project.artifactId" value="%15"/>
-  <alias path="/mantelArch-web/pom.xml" value="%16"/>
+  <alias path="project.artifactId" value="%13"/>
+  <alias path="/mantelArch-web/pom.xml" value="%14"/>
+  <alias path="project" value="%15"/>
   <alias
    path="/mantelArch-ejb/src/main/java/com/Mantel/mantelArch/util/Resources.java" value="%6"/>
-  <alias path="version" value="%18"/>
+  <alias path="version" value="%16"/>
   <alias path="newMember" value="%4"/>
-  <alias path="version.war.plugin" value="%21"/>
   <alias
-   path="/mantelArch-ejb/src/main/java/com/Mantel/mantelArch/model/Member.java" value="%22"/>
-  <alias path="version.surefire.plugin" value="%23"/>
-  <alias path="request.contextPath" value="%24"/>
+   path="/mantelArch-ejb/src/main/java/com/Mantel/mantelArch/data/MemberListProducer.java" value="%0"/>
+  <alias path="version.war" value="%17"/>
+  <alias path="version.war.plugin" value="%18"/>
+  <alias
+   path="/mantelArch-ejb/src/main/java/com/Mantel/mantelArch/model/Member.java" value="%19"/>
+  <alias path="members" value="%1"/>
+  <alias path="memberController" value="%5"/>
+  <alias path="request.contextPath" value="%20"/>
   <alias
    path="/mantelArch-web/src/main/java/com/Mantel/mantelArch/rest/MemberResourceRESTService.java" value="%8"/>
   <alias
    path="/mantelArch-web/src/main/java/com/Mantel/mantelArch/controller/MemberController.java" value="%3"/>
+  <alias
+   path="/mantelArch-ejb/src/main/java/com/Mantel/mantelArch/data/MemberRepository.java" value="%9"/>
   <alias path="/mantelArch-web/src/main/webapp/index.xhtml" value="%12"/>
   <alias
    path="/mantelArch-ejb/src/main/java/com/Mantel/mantelArch/service/MemberRegistration.java" value="%10"/>
  </aliases>
  <includes/>
- <uris/>
+ <uris>
+  <uri value="http://java.sun.com/jsf/core">
+   <prefix>f</prefix>
+  </uri>
+  <uri value="http://java.sun.com/jsf/html">
+   <prefix>h</prefix>
+  </uri>
+ </uris>
 </kb-project>

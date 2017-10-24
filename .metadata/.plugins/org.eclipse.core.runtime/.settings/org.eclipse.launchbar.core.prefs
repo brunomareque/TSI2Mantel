@@ -6,5 +6,7 @@ org.eclipse.launchbar.core.descriptorType.default\:Mantel/activeLaunchTarget=org
 org.eclipse.launchbar.core.descriptorType.default\:mantelArch-ejb/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:Mantel/activeLaunchMode=run
 org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:Mantel/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.wst.server\:WildFly 10.x
+org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:mantelArch-ear/activeLaunchMode=run
+org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:mantelArch-ear/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.wst.server\:WildFly 10.x
 org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:mantelArch-ejb/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.wst.server\:WildFly 10.x
 org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:mantelArch-web/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.wst.server\:WildFly 10.x
