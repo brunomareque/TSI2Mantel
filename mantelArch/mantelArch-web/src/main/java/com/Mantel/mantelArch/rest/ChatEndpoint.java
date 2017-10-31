@@ -22,7 +22,7 @@ public class ChatEndpoint {
 
 	@OnOpen
 	public void open(final Session session, @PathParam("room") final String room) {
-		log.info("session openend and bound to room: " + room);
+		log.info("Usuario conectado con exito!: " + room);
 		session.getUserProperties().put("room", room);
 	}
 
@@ -37,7 +37,7 @@ public class ChatEndpoint {
 				}
 			}
 		} catch (IOException | EncodeException e) {
-			log.log(Level.WARNING, "onMessage failed", e);
+			log.log(Level.WARNING, "Fallo a Enviar", e);
 		}
 	}
 }

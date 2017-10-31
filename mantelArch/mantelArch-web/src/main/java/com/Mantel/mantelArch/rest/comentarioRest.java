@@ -54,6 +54,14 @@ public class comentarioRest {
 		
 	}
 	
+
+	@GET
+	@Path("/prueba")
+	public String prueba(){
+		return "OK";
+		
+	}
+	
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)  
 	@Path("/Get/{usuario}/{tipo}/{titulo}")  
@@ -63,12 +71,13 @@ public class comentarioRest {
 		return dbSingleton.listarComentarioUsu(usuario, titulo, tipo);
 	}
 	
+	
+	
 	@POST
-	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.TEXT_PLAIN)
-	@Path("/spoiler")
-	public void marcarSpoiler(comentario coment) {
+	@Path("/spoiler/{tipo}/{id}")
+	public void marcarSpoiler(@PathParam("tipo") String tipo, @PathParam("id") String id) {
 		comentarioMDB dbSingleton = comentarioMDB.getInstance();
-		dbSingleton.marcarSpoiler(coment);
+		dbSingleton.marcarSpoiler(tipo, id);
 	}
 }
