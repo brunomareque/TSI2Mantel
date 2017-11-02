@@ -33,9 +33,7 @@ public class comentarioMDB {
 		MongoDatabase database = mongo.getDatabase("mantel");
 		MongoCollection<Document> collection = database.getCollection(coment.getTipo());
 		
-		Document doc = new Document("comentario", coment.getComentario())
-				
-				
+		Document doc = new Document("comentario", coment.getComentario())	
                .append("usuario", coment.getUsuario())
                .append("fecha", coment.getFecha())
                .append("spoiler",coment.isSpoiler() )
